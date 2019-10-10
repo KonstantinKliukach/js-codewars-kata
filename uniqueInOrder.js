@@ -3,9 +3,7 @@ Implement the function unique_in_order which takes as argument a sequence and re
 */
 
 function uniqueInOrder(iterable){
-  return Array.prototype
-  .map.call(iterable, item => item)
-  .filter((currentItem, index, array) => currentItem != array[index-1])
+  return [...iterable].filter((currentItem, index, array) => currentItem != array[index-1])
 }
 
 uniqueInOrder('AAAABBBCCDAABBB') == ['A', 'B', 'C', 'D', 'A', 'B']
