@@ -7,6 +7,6 @@ String will never be empty and you do not need to account for different data typ
 function findShort(s){
   return s.split(' ').reduce((prev, current) => {
     return prev.length < current.length ? prev : current;
-  }, Infinity);
+  }, Infinity).length;
 }
 
