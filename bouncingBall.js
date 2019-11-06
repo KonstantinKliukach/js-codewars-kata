@@ -19,7 +19,7 @@ function bouncingBall(h, bounce, window) {
     return getCalc(h, bounce, window);
 }
 
-/* now I think that 'while' approach with while could be better, but, m.b. recursive way is more readable? */
+/* now I think that approach with while could be better, but, m.b. recursive way is more readable? */
 
 function bouncingBall(h, bounce, window) {
     if (h <= 0 || bounce >= 1 || bounce <= 0 || window >= h) {
