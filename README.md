@@ -1,2 +1,2 @@
-# js-codewars-kata
-Small tasks from codewars, pure JS. 
+# js-warm-up
+Small tasks from codewars, leetcode, etc.
